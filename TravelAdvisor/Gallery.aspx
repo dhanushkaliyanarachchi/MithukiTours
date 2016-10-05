@@ -45,6 +45,9 @@
                       <div class="media-left media-middle rd-navbar-fixed--hidden"><img src="images/icon-02.png" width="33" height="33" alt=""></div>
                       <div class="media-body">
                         <h6>Call Us:<br><a href="callto:#">+94(77) 337 6517</a></h6>
+                          <h6>Email: <br />
+                               <a href="callto:#">mithukitours@gmail.com</a>
+                           </h6>
                       </div>
                     </div>
                   </div>
