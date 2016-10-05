@@ -88,7 +88,7 @@
                                 </li>
                                 <li><a href="Tours.aspx">our tours</a></li>
                                 <li><a href="Gallery.aspx">gallery</a></li>
-                                <li><a href="blog.html">Blog</a></li>
+                                <%--<li><a href="blog.html">Blog</a></li>--%>
                                 <li class="active"><a href="Contacts.aspx">Contacts</a></li>
                             </ul>
                         </div>
@@ -116,6 +116,10 @@
                 <div class="form-group">
                   <label for="contact-email" class="form-label">E-Mail</label>
                   <input id="contact-email" type="email" name="email" data-constraints="@Required @Email" class="form-control"/>
+                </div>
+                <div class="form-group">
+                  <label for="contact-email-password" class="form-label">E-Mail</label>
+                  <input id="contact-email-password" type="password" name="password" data-constraints="@Required" class="form-control"/>
                 </div>
               </div>
               <div class="cell-md-8">
@@ -167,7 +171,7 @@
         <footer class="page-footer"></footer>
         <section class="page-footer-section-2">
             <div class="shell"><a href="./" class="reveal-inline-block">
-                <img src="images/logo-primary.png" width="290" height="85" alt="" class="img-responsive center-block"></a></div>
+                <img src="images/mithuli-logo.png" width="290" height="85" alt="" class="img-responsive center-block"></a></div>
         </section>
         <!-- {%FOOTER_LINK}-->
     </div>
@@ -226,12 +230,14 @@
             var contactPhone = $("#contact-phone").val();
             var contactEmail = $("#contact-email").val();
             var contactMessage = $("#contact-message").val();
+            var contactEmailPassword = $("#contact-email-password").val();
 
             var bookingModel = {
                 contactName: contactName,
                 contactPhone: contactPhone,
                 contactEmail: contactEmail,
-                contactMessage: contactMessage
+                contactMessage: contactMessage,
+                contactEmailPassword: contactEmailPassword
             };
 
             $.ajax({

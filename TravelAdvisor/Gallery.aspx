@@ -49,7 +49,7 @@
                     </div>
                   </div>
                   <!-- RD Navbar Brand-->
-                  <div class="rd-navbar-brand"><a href="index.html" class="brand-name"><img src="images/logo.png" width="290" height="85" alt=""></a></div>
+                  <div class="rd-navbar-brand"><a href="index.html" class="brand-name"><img src="images/mithuli-logo.png" width="290" height="85" alt="" style="margin-top:-40px"></a></div>
                   <!-- RD Navbar Toggle-->
                   <button data-rd-navbar-toggle=".rd-navbar-nav-wrap" class="rd-navbar-toggle"><span></span></button>
                 </div>
@@ -68,7 +68,7 @@
                   <li><a href="./">Home</a></li>
                   <li><a href="About.aspx">About</a>
                     <!-- RD Navbar Dropdown-->
-                    <ul class="rd-navbar-dropdown">
+<%--                    <ul class="rd-navbar-dropdown">
                       <li><a href="#">Meet Our Team</a></li>
                       <li><a href="#">FAQ</a></li>
                       <li><a href="#">Areas We Serve</a>
@@ -80,11 +80,11 @@
                           <li><a href="404.html">404</a></li>
                         </ul>
                       </li>
-                    </ul>
+                    </ul>--%>
                   </li>
-                  <li><a href="Tours.aspx">our tours</a></li>
+                  <li><a href="#">our tours</a></li>
                   <li class="active"><a href="Gallery.aspx">gallery</a></li>
-                  <li><a href="blog.html">Blog</a></li>
+                  <%--<li><a href="blog.html">Blog</a></li>--%>
                   <li><a href="Contacts.aspx">Contacts</a></li>
                 </ul>
               </div>
@@ -97,14 +97,24 @@
         <section class="section-70 section-lg-140">
           <div class="container text-md-left">
             <h3>Our tours</h3>
-            <h6 class="label label-primary">Pick any place on Earth</h6>
+            <h6 class="label label-primary">Pick any place in Sri Lanka</h6>
             <div class="row offset-top-40 offset-lg-top-85">
               <!-- Isotope Filters-->
               <div class="col-lg-12"></div>
               <!-- Isotope Content-->
               <div class="col-lg-12">
                 <div data-isotope-layout="masonry" data-isotope-group="gallery" data-photo-swipe-gallery="gallery" class="isotope">
-                  <div class="row row-no-gutter"><a data-photo-swipe-item="" data-size="380x250" href="images/gallery-01.jpg" data-author="Michael Hull" class="col-xs-12 col-sm-6 col-md-4 isotope-item offset-top-0 thumbnail-custom"><img src="images/gallery-01.jpg" width="380" height="250" alt=""></a><a data-photo-swipe-item="" data-size="380x250" href="images/gallery-02.jpg" data-author="Michael Hull" class="col-xs-12 col-sm-6 col-md-4 isotope-item offset-top-0 thumbnail-custom"><img src="images/gallery-02.jpg" width="380" height="250" alt=""></a><a data-photo-swipe-item="" data-size="380x250" href="images/gallery-03.jpg" data-author="Michael Hull" class="col-xs-12 col-sm-6 col-md-4 isotope-item offset-top-0 thumbnail-custom"><img src="images/gallery-03.jpg" width="380" height="250" alt=""></a><a data-photo-swipe-item="" data-size="380x400" href="images/gallery-04.jpg" data-author="Michael Hull" class="col-xs-12 col-sm-6 col-md-4 isotope-item offset-top-0 thumbnail-custom"><img src="images/gallery-04.jpg" width="380" height="400" alt=""></a><a data-photo-swipe-item="" data-size="760x250" href="images/gallery-05.jpg" data-author="Michael Hull" class="col-xs-12 col-sm-6 col-md-8 isotope-item thumbnail-custom"><img src="images/gallery-05.jpg" width="760" height="250" alt=""></a><a data-photo-swipe-item="" data-size="380x600" href="images/gallery-07.jpg" data-author="Michael Hull" class="col-xs-12 col-sm-6 col-md-4 isotope-item offset-top-0 thumbnail-custom"><img src="images/gallery-07.jpg" width="380" height="600" alt=""></a><a data-photo-swipe-item="" data-size="380x400" href="images/gallery-08.jpg" data-author="Michael Hull" class="col-xs-12 col-sm-6 col-md-4 isotope-item offset-top-0 thumbnail-custom"><img src="images/gallery-08.jpg" width="380" height="400" alt=""></a><a data-photo-swipe-item="" data-size="380x450" href="images/gallery-06.jpg" data-author="Michael Hull" class="col-xs-12 col-sm-6 col-md-4 isotope-item offset-top-0 thumbnail-custom"><img src="images/gallery-06.jpg" width="380" height="450" alt=""></a><a data-photo-swipe-item="" data-size="380x450" href="images/gallery-10.jpg" data-author="Michael Hull" class="col-xs-12 col-sm-6 col-md-4 isotope-item offset-top-0 thumbnail-custom"><img src="images/gallery-10.jpg" width="380" height="450" alt=""></a><a data-photo-swipe-item="" data-size="760x250" href="images/gallery-09.jpg" data-author="Michael Hull" class="col-xs-12 col-sm-6 col-md-8 isotope-item offset-top-0 thumbnail-custom"><img src="images/gallery-09.jpg" width="760" height="250" alt=""></a></div>
+                  <div class="row row-no-gutter"><a data-photo-swipe-item="" data-size="380x250" href="images/gallery-01.jpg" data-author="Michael Hull" class="col-xs-12 col-sm-6 col-md-4 isotope-item offset-top-0 thumbnail-custom">
+                      <img src="images/gallery-adms-peak.jpg" width="380" height="250" alt=""></a><a data-photo-swipe-item="" data-size="380x250" href="images/gallery-adms-peak.jpg" data-author="Michael Hull" class="col-xs-12 col-sm-6 col-md-4 isotope-item offset-top-0 thumbnail-custom">
+                      <img src="images/gallery-arc.jpg" width="380" height="250" alt=""></a><a data-photo-swipe-item="" data-size="380x250" href="images/gallery-arc.jpg" data-author="Michael Hull" class="col-xs-12 col-sm-6 col-md-4 isotope-item offset-top-0 thumbnail-custom">
+                      <img src="images/gallery-delf-island.jpg" width="380" height="250" alt=""></a><a data-photo-swipe-item="" data-size="380x400" href="images/gallery-delf-island.jpg" data-author="Michael Hull" class="col-xs-12 col-sm-6 col-md-4 isotope-item offset-top-0 thumbnail-custom">
+                      <img src="images/gallery-gregary-lake.jpg" width="380" height="400" alt=""></a><a data-photo-swipe-item="" data-size="760x250" href="images/gallery-gregary-lake.jpg" data-author="Michael Hull" class="col-xs-12 col-sm-6 col-md-8 isotope-item thumbnail-custom">
+                      <img src="images/gallery-hikkaduwa-beach.jpg" width="760" height="250" alt=""></a><a data-photo-swipe-item="" data-size="380x600" href="images/gallery-hikkaduwa-beach.jpg" data-author="Michael Hull" class="col-xs-12 col-sm-6 col-md-4 isotope-item offset-top-0 thumbnail-custom">
+                      <img src="images/gallery-mathugama-arc.jpg" width="380" height="600" alt=""></a><a data-photo-swipe-item="" data-size="380x400" href="images/gallery-mathugama-arc.jpg" data-author="Michael Hull" class="col-xs-12 col-sm-6 col-md-4 isotope-item offset-top-0 thumbnail-custom">
+                      <img src="images/gallery-nuwara-eliya.jpg" width="380" height="400" alt=""></a><a data-photo-swipe-item="" data-size="380x450" href="images/gallery-nuwara-eliya.jpg" data-author="Michael Hull" class="col-xs-12 col-sm-6 col-md-4 isotope-item offset-top-0 thumbnail-custom">
+                      <img src="images/gallery-pasikuda.jpg" width="380" height="450" alt=""></a><a data-photo-swipe-item="" data-size="380x450" href="images/gallery-pasikuda.jpg" data-author="Michael Hull" class="col-xs-12 col-sm-6 col-md-4 isotope-item offset-top-0 thumbnail-custom">
+                      <img src="images/gallery-sigiriya.jpg" width="380" height="450" alt=""></a><a data-photo-swipe-item="" data-size="760x250" href="images/gallery-sigiriya.jpg" data-author="Michael Hull" class="col-xs-12 col-sm-6 col-md-8 isotope-item offset-top-0 thumbnail-custom">
+                      <img src="images/gallery-sigiriya2.jpg" width="760" height="250" alt=""></a></div>
                 </div>
               </div>
             </div>
@@ -132,14 +142,14 @@
             </div>
             <div class="range range-xs-center offset-top-30">
               <div class="cell-md-6">
-                <p class="small text-jumbo"><span class='text-primary'>Travelos </span> &#169;<span id="copyright-year"></span> | <a href="privacy.html" class="text-jumbo">Privacy Policy</a>
+                <p class="small text-jumbo"><span class='text-primary'>Mithuki </span> &#169;<span id="copyright-year"></span> | <a href="privacy.html" class="text-jumbo">Privacy Policy</a>
                 </p>
               </div>
             </div>
           </div>
         </section>
         <section class="page-footer-section-2">
-          <div class="shell"><a href="./" class="reveal-inline-block"><img src="images/logo-primary.png" width="290" height="85" alt="" class="img-responsive center-block"></a></div>
+          <div class="shell"><a href="./" class="reveal-inline-block"><img src="images/mithuli-logo.png" width="290" height="85" alt="" class="img-responsive center-block"></a></div>
         </section>
       </footer>
     </div>

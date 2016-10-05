@@ -20,36 +20,29 @@ namespace TravelAdvisor
 
         [WebMethod]
         [ScriptMethod(UseHttpGet = false)]
-        public static void SendMail(string contactName, string contactPhone, string contactEmail, string contactMessage)
+        public static void SendMail(string contactName, string contactPhone, string contactEmail, string contactMessage, string contactEmailPassword)
         {
-            SmtpClient client = new SmtpClient();
-            client.DeliveryMethod = SmtpDeliveryMethod.Network;
-            client.EnableSsl = true;
-            client.Host = "smtp.gmail.com";
-            client.Port = 587;
-
-            System.Net.NetworkCredential credentials =
-            new System.Net.NetworkCredential(DefaultFrom, "!2013913!");
-            client.UseDefaultCredentials = false;
-            client.Credentials = credentials;
-
-            MailMessage msg = new MailMessage();
-            msg.From = new MailAddress(DefaultFrom);
-            msg.To.Add(new MailAddress(contactEmail));
-
-            msg.Subject = "This is a test Email subject";
-            msg.IsBodyHtml = true;
-            msg.Body = string.Format("<html><head></head><body><b>Test HTML Email</b></body>");
-
             try
             {
-                client.Send(msg);
-                //lblMsg.Text = "Your message has been successfully sent.";
+                MailMessage mailMessage = new MailMessage(contactEmail, "hareshliya6@gmail.com");
+                mailMessage.Subject = "Travel";
+                mailMessage.Body = contactMessage;
+
+                SmtpClient smtpClient = new SmtpClient("smtp.gmail.com", 587);
+                smtpClient.UseDefaultCredentials = false;//Calling this line at the order here, otherwise email will not be sent....
+                smtpClient.Credentials = new System.Net.NetworkCredential()
+                {
+                    UserName = contactEmail,
+                    Password = contactEmailPassword
+                };
+                smtpClient.EnableSsl = true;
+
+                smtpClient.Send(mailMessage);
             }
             catch (Exception ex)
             {
-                //lblMsg.ForeColor = Color.Red;
-                //lblMsg.Text = "Error occured while sending your message." + ex.Message;
+                
+                throw;
             }
         }
     }

@@ -53,7 +53,7 @@
                                 </div>
                                 <!-- RD Navbar Brand-->
                                 <div class="rd-navbar-brand"><a href="index.html" class="brand-name">
-                                    <img src="images/logo.png" width="290" height="85" alt=""></a></div>
+                                    <img src="images/mithuli-logo.png" width="290" height="85" alt="" style="margin-top:-40px"></a></div>
                                 <!-- RD Navbar Toggle-->
                                 <button data-rd-navbar-toggle=".rd-navbar-nav-wrap" class="rd-navbar-toggle"><span></span></button>
                             </div>
@@ -72,7 +72,7 @@
                                 <li><a href="./">Home</a></li>
                                 <li class="active"><a href="About.aspx">About</a>
                                     <!-- RD Navbar Dropdown-->
-                                    <ul class="rd-navbar-dropdown">
+<%--                                    <ul class="rd-navbar-dropdown">
                                         <li><a href="#">Meet Our Team</a></li>
                                         <li><a href="#">FAQ</a></li>
                                         <li><a href="#">Areas We Serve</a>
@@ -84,12 +84,12 @@
                                                 <li><a href="404.html">404</a></li>
                                             </ul>
                                         </li>
-                                    </ul>
+                                    </ul>--%>
                                 </li>
-                                <li><a href="tours.html">our tours</a></li>
-                                <li><a href="gallery.html">gallery</a></li>
-                                <li><a href="blog.html">Blog</a></li>
-                                <li><a href="contacts.html">Contacts</a></li>
+                                <li><a href="#">our tours</a></li>
+                                <li><a href="Gallery.aspx">gallery</a></li>
+                                <%--<li><a href="blog.html">Blog</a></li>--%>
+                                <li><a href="Contacts.aspx">Contacts</a></li>
                             </ul>
                         </div>
                     </div>
@@ -106,7 +106,7 @@
               </div>
               <div class="cell-md-5 cell-md-preffix-1 section-70 text-md-left section-md-140 offset-top-0">
                 <h3>About us</h3>
-                <p class="line-height-big">Travelos was founded 15 years ago as an ultimate place for American residents to receive high quality travelling service. We work hard everyday, so that you could enjoy your holiday with our services. Since our establishment in 2001, we have sold more than 500 tours to various places in the world. Our guides, administrators and a lot of other employees who form our team understand what you need and try to make your tourist experience unforgettably outstanding.</p><a href="#" class="btn btn-default btn-more offset-top-40"><span class="text-middle">More Info</span></a>
+                <p class="line-height-big">Mithuki Tours. We work hard everyday, so that you could enjoy your holiday with our services. Since our establishment in 2010, we have sold more than 500 tours to various places in Sri Lanka. Our guides, administrators and a lot of other employees who form our team understand what you need and try to make your tourist experience unforgettably outstanding.</p><a href="#" class="btn btn-default btn-more offset-top-40"><%--<span class="text-middle">More Info</span>--%></a>
               </div>
             </div>
           </div>
@@ -126,12 +126,12 @@
                 <div class="list-index-counter">
                   <h4 class="list-index-heading">Affordable prices on tours and excursions</h4>
                 </div>
-                <p class="inset-lg-right-34 list-index-inset">Travelos offers the most affordable yet top-notch travel services including custom and group tours, excursions, hotel booking, and a lot of others.</p>
+                <p class="inset-lg-right-34 list-index-inset">Mithuki Tours offers the most affordable yet top-notch travel services including custom and group tours, excursions, hotel booking, and a lot of others.</p>
               </li>
             </ul>
           </div>
         </section>
-        <section class="section-70 section-lg-140">
+<%--        <section class="section-70 section-lg-140">
           <div class="shell text-md-left">
             <h3>Our team</h3>
             <h6 class="label label-primary">True traveling experts</h6>
@@ -159,9 +159,9 @@
               </li>
             </ul>
           </div>
-        </section>
+        </section>--%>
         <!-- RD Parallax-->
-        <section class="rd-parallax">
+<%--        <section class="rd-parallax">
           <div data-speed="0" data-type="media" data-url="images/about-06.jpg" class="rd-parallax-layer"></div>
           <div data-speed="0" data-type="html" class="rd-parallax-layer">
             <!-- Owl Carousel-->
@@ -190,7 +190,7 @@
               </div>
             </div>
           </div>
-        </section>
+        </section>--%>
       </main>
         <!-- Page Footer-->
         <footer class="page-footer">
@@ -214,7 +214,7 @@
                     <div class="range range-xs-center offset-top-30">
                         <div class="cell-md-6">
                             <p class="small text-jumbo">
-                                <span class='text-primary'>Travelos </span>&#169;<span id="copyright-year"></span> | <a href="privacy.html" class="text-jumbo">Privacy Policy</a>
+                                <span class='text-primary'>Mithuki Tours </span>&#169;<span id="copyright-year"></span> | <a href="privacy.html" class="text-jumbo">Privacy Policy</a>
                             </p>
                         </div>
                     </div>
@@ -222,7 +222,7 @@
             </section>
             <section class="page-footer-section-2">
                 <div class="shell"><a href="./" class="reveal-inline-block">
-                    <img src="images/logo-primary.png" width="290" height="85" alt="" class="img-responsive center-block"></a></div>
+                    <img src="images/mithuli-logo.png" width="290" height="85" alt="" class="img-responsive center-block"></a></div>
             </section>
         </footer>
     </div>

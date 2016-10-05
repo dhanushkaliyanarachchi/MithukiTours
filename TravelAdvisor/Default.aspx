@@ -54,7 +54,7 @@
                                 </div>
                                 <!-- RD Navbar Brand-->
                                 <div class="rd-navbar-brand"><a href="index.html" class="brand-name">
-                                    <img src="images/logo.png" width="290" height="85" alt=""></a></div>
+                                    <img src="images/mithuli-logo.png" width="290" height="85" alt="" style="margin-top:-40px"></a></div>
                                 <!-- RD Navbar Toggle-->
                                 <button data-rd-navbar-toggle=".rd-navbar-nav-wrap" class="rd-navbar-toggle"><span></span></button>
                             </div>
@@ -72,7 +72,7 @@
                             <ul class="rd-navbar-nav">
                                 <li class="active"><a href="./">Home</a></li>
                                 <li><a href="About.aspx">About</a>
-                                    <!-- RD Navbar Dropdown-->
+ <%--                                   <!-- RD Navbar Dropdown-->
                                     <ul class="rd-navbar-dropdown">
                                         <li><a href="#">Meet Our Team</a></li>
                                         <li><a href="#">FAQ</a></li>
@@ -85,9 +85,9 @@
                                                 <li><a href="404.html">404</a></li>
                                             </ul>
                                         </li>
-                                    </ul>
+                                    </ul>--%>
                                 </li>
-                                <li><a href="Tours.aspx">our tours</a></li>
+                                <li><a href="#">our tours</a></li>
                                 <li><a href="Gallery.aspx">gallery</a></li>
                                 <li><a href="blog.html">Blog</a></li>
                                 <li><a href="Contacts.aspx">Contacts</a></li>
@@ -115,49 +115,49 @@
               <div class="cell-lg-8 cell-md-7">
                 <div class="box box-inset box-white text-md-left box-wide">
                   <div class="box-inner">
-                    <h3>	Discover the Planet</h3>
+                    <h3>	Discover Sri Lanka</h3>
                     <h6 class="label label-primary">See It! feel it! Love It!</h6>
                   </div>
                 </div>
               </div>
-              <div class="cell-sm-6 cell-md-5 cell-lg-4 offset-top-30 offset-md-top-0"><a href="#" class="box"><img src="images/index-03.jpg" width="370" height="370" alt="" class="box-bg">
+              <div class="cell-sm-6 cell-md-5 cell-lg-4 offset-top-30 offset-md-top-0"><a href="#" class="box"><img src="images/temple_of_tooth_relic.jpg" width="370" height="370" alt="" class="box-bg">
                   <div class="box-inner">
-                    <h3>Rome</h3>
+                    <h3>Temple Of Tooth</h3>
                     <div class="label-block">
-                      <h6 class="label label-primary">FROM</h6>
-                      <h6 class="label label-default">$1.850</h6>
+                      <%--<h6 class="label label-primary">FROM</h6>--%>
+                      <%--<h6 class="label label-default">$1.850</h6>--%>
                     </div>
                   </div></a></div>
-              <div class="cell-sm-6 cell-md-5 cell-lg-4 offset-top-30"><a href="#" class="box"><img src="images/index-04.jpg" width="370" height="370" alt="" class="box-bg">
+              <div class="cell-sm-6 cell-md-5 cell-lg-4 offset-top-30"><a href="#" class="box"><img src="images/arugam_bay.jpg" width="370" height="370" alt="" class="box-bg">
                   <div class="box-inner">
-                    <h3>Paris</h3>
+                    <h3>Arugam Bay</h3>
                     <div class="label-block">
-                      <h6 class="label label-primary">FROM</h6>
-                      <h6 class="label label-default">$1.630</h6>
+<%--                      <h6 class="label label-primary">FROM</h6>
+                      <h6 class="label label-default">$1.630</h6>--%>
                     </div>
                   </div></a></div>
-              <div class="cell-lg-8 cell-md-7 offset-top-30"><a href="#" class="box box-wide"><img src="images/index-05.jpg" width="770" height="370" alt="" class="box-bg">
+              <div class="cell-lg-8 cell-md-7 offset-top-30"><a href="#" class="box box-wide"><img src="images/whale-watching-mirissa.jpg" width="770" height="370" alt="" class="box-bg">
                   <div class="box-inner">
-                    <h3>Venice</h3>
+                    <h3>Mirissa</h3>
                     <div class="label-block">
-                      <h6 class="label label-primary">FROM</h6>
-                      <h6 class="label label-default">$2.150</h6>
+<%--                      <h6 class="label label-primary">FROM</h6>
+                      <h6 class="label label-default">$2.150</h6>--%>
                     </div>
                   </div></a></div>
-              <div class="cell-sm-6 cell-md-4 offset-top-30"><a href="#" class="box"><img src="images/index-06.jpg" width="370" height="370" alt="" class="box-bg">
+              <div class="cell-sm-6 cell-md-4 offset-top-30"><a href="#" class="box"><img src="images/nilaweli_beach-large.jpg" width="370" height="370" alt="" class="box-bg">
                   <div class="box-inner">
-                    <h3>London</h3>
+                    <h3>Nilaweli</h3>
                     <div class="label-block">
-                      <h6 class="label label-primary">FROM</h6>
-                      <h6 class="label label-default">$1.250</h6>
+<%--                      <h6 class="label label-primary">FROM</h6>
+                      <h6 class="label label-default">$1.250</h6>--%>
                     </div>
                   </div></a></div>
-              <div class="cell-sm-6 cell-md-4 offset-top-30"><a href="#" class="box"><img src="images/index-07.jpg" width="370" height="370" alt="" class="box-bg">
+              <div class="cell-sm-6 cell-md-4 offset-top-30"><a href="#" class="box"><img src="images/adams-peak.jpg" width="370" height="370" alt="" class="box-bg">
                   <div class="box-inner">
-                    <h3>Ireland</h3>
+                    <h3>Adam's Peak</h3>
                     <div class="label-block">
-                      <h6 class="label label-primary">FROM</h6>
-                      <h6 class="label label-default">$2.060</h6>
+<%--                      <h6 class="label label-primary">FROM</h6>
+                      <h6 class="label label-default">$2.060</h6>--%>
                     </div>
                   </div></a></div>
               <div class="cell-sm-6 cell-md-4 offset-top-30"><a href="#" class="box bg-primary">
@@ -167,7 +167,7 @@
             </div>
           </div>
         </section>
-        <section class="section-140">
+<%--        <section class="section-140">
           <div class="shell text-md-left">
             <h3>What We Offer</h3>
             <h6 class="label label-primary">Offers that make you stay with us</h6>
@@ -210,8 +210,8 @@
               </li>
             </ul>
           </div>
-        </section>
-        <section style="background: url('images/index-10.jpg');">
+        </section>--%>
+<%--        <section style="background: url('images/index-10.jpg');">
           <div class="shell">
             <div class="range">
               <div class="cell-md-6 half-image section-top-45">
@@ -223,8 +223,8 @@
               </div>
             </div>
           </div>
-        </section>
-        <section class="section-110">
+        </section>--%>
+<%--        <section class="section-110">
           <div class="shell">
             <div class="range range-xs-around text-md-left">
               <div class="cell-xs-5 cell-lg-3"><span class="icon text-primary icon-lg thin-icon-pass"></span>
@@ -249,7 +249,7 @@
               </div>
             </div>
           </div>
-        </section>
+        </section>--%>
         <section style="background: url('images/index-10.jpg');">
           <div class="shell text-md-left">
             <div class="range">
@@ -258,7 +258,7 @@
               </div>
               <div class="cell-md-5 offset-top-0 section-70 section-md-140">
                 <h3>Meet Our Professional Team of Travel Agents.</h3>
-                <p class="width-75P line-height-big">Our agents have 21 years of experience on the average, and more than 500 years in total. They are professionals, whose main goal is to make your trip unforgettable. Our travel advisors are ready to help you today with everything you need to travel. Our staff always puts knowledge to work, paying attention to every travel detail. We provide full all-round insurance for you and your luggage.</p><a href="#" class="btn btn-default btn-more offset-top-40"><span class="text-middle">More Info</span></a>
+                <p class="width-75P line-height-big">Our agents are professionals, whose main goal is to make your trip unforgettable. Our travel advisors are ready to help you today with everything you need to travel. Our staff always puts knowledge to work, paying attention to every travel detail. We provide full all-round insurance for you and your luggage.</p><a href="#" class="btn btn-default btn-more offset-top-40"><%--<span class="text-middle">More Info</span--%>></a>
               </div>
             </div>
           </div>
@@ -268,7 +268,7 @@
           <div data-speed="0.2" data-type="media" data-url="images/index-12.jpg" class="rd-parallax-layer"></div>
           <div data-speed="0" data-type="html" class="rd-parallax-layer">
             <div class="shell section-110 section-xl-240">
-              <h2>Enjoy Comfortable<br class="veil reveal-md-block"><span class="reveal-inline-block text-primary small font-default">Hotels All Over the World.</span></h2>
+              <h2>Enjoy Comfortable<br class="veil reveal-md-block"><span class="reveal-inline-block text-primary small font-default">Hotels All Over Sri Lanka.</span></h2>
               <div class="range range-xs-center offset-top-30">
                 <div class="cell-md-8 cell-lg-6">
                   <p>Picking a right hotel is a difficult and routine task – and you don’t need routine during the trip of your dreams, we know it. That’s why our agency takes care of all the things you need during your vacation.</p>
@@ -290,7 +290,7 @@
                       <li><a href="#" class="icon icon-sm icon-base fa-twitter"></a></li>
                       <li><a href="#" class="icon icon-sm icon-base fa-google-plus"></a></li>
                     </ul>
-                    <p class="offset-top-60 small text-jumbo"><span class='text-primary'>Travelos </span> &#169;<span id="copyright-year"></span> | <a href="privacy.html" class="text-jumbo">Privacy Policy</a>
+                    <p class="offset-top-60 small text-jumbo"><span class='text-primary'>Mithuki Tours </span> &#169;<span id="copyright-year"></span> | <a href="privacy.html" class="text-jumbo">Privacy Policy</a>
                     </p>
                   </div>
                 </div>
@@ -314,7 +314,7 @@
         <footer class="page-footer"></footer>
         <section class="page-footer-section-2">
             <div class="shell"><a href="./" class="reveal-inline-block">
-                <img src="images/logo-primary.png" width="290" height="85" alt="" class="img-responsive center-block"></a></div>
+                <img src="images/mithuli-logo.png" width="290" height="85" alt="" class="img-responsive center-block"></a></div>
         </section>
         <!-- {%FOOTER_LINK}-->
     </div>

@@ -81,6 +81,22 @@
   <ItemGroup>
     <Content Include="About.aspx" />
     <Content Include="Contacts.aspx" />
+    <Content Include="images\adams-peak.jpg" />
+    <Content Include="images\arugam_bay.jpg" />
+    <Content Include="images\gallery-adms-peak.jpg" />
+    <Content Include="images\gallery-arc.jpg" />
+    <Content Include="images\gallery-delf-island.jpg" />
+    <Content Include="images\gallery-gregary-lake.jpg" />
+    <Content Include="images\gallery-hikkaduwa-beach.jpg" />
+    <Content Include="images\gallery-mathugama-arc.jpg" />
+    <Content Include="images\gallery-nuwara-eliya.jpg" />
+    <Content Include="images\gallery-pasikuda.jpg" />
+    <Content Include="images\gallery-sigiriya.jpg" />
+    <Content Include="images\gallery-sigiriya2.jpg" />
+    <Content Include="images\mithuli-logo.png" />
+    <Content Include="images\nilaweli_beach-large.jpg" />
+    <Content Include="images\temple_of_tooth_relic.jpg" />
+    <Content Include="images\whale-watching-mirissa.jpg" />
     <Content Include="js\customScript.js" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
